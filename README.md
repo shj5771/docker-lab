@@ -53,7 +53,7 @@ bash# 1. 의존성 설치
 👉 실행 후 브라우저에서 확인: http://localhost:8010
 
 🧩 Docker 명령어 정리
-<img width="560" height="268" alt="image" src="https://github.com/user-attachments/assets/8d757fa2-db21-4e7f-88c6-3e0a135ea7e1" />
+<img width="593" height="297" alt="image" src="https://github.com/user-attachments/assets/d7cbc205-b4e6-40ce-b946-d7e9ca65e275" />
 
 📖 배운 점
 
