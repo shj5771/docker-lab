@@ -23,32 +23,32 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
 이후 재부팅 후:
-3) WSL2 + Ubuntu 설치
-bashwsl --install
+### 3) WSL2 + Ubuntu 설치
+```wsl --install```
 
 👉 설치 후 계정/비밀번호 입력 (앞으로 계속 사용할 계정)
 
-4) Docker Desktop 설치
+### 4) Docker Desktop 설치
 
 Docker Desktop 다운로드 후 설치
 첫 실행 시 WSL2 기반 엔진 활성화 확인
 
 
 🚀 실행 방법
-1) 로컬 실행 (Docker 없이)
+### 1) 로컬 실행 (Docker 없이)
 bash# 1. 의존성 설치
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 # 2. FastAPI 실행
-uvicorn app:app --reload --host 0.0.0.0 --port 8000
+```uvicorn app:app --reload --host 0.0.0.0 --port 8000```
 
 👉 실행 후 브라우저에서 확인: http://localhost:8000
 
-2) Docker 빌드 & 실행
+### 2) Docker 빌드 & 실행
 (1) Docker 이미지 빌드
-bashdocker build -t my-fastapi-app .
+```bashdocker build -t my-fastapi-app .```
 (2) 컨테이너 실행 (8010 포트 매핑)
-bashdocker run -d -p 8010:8000 my-fastapi-app
+```bashdocker run -d -p 8010:8000 my-fastapi-app```
 
 👉 실행 후 브라우저에서 확인: http://localhost:8010
 
