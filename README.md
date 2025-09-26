@@ -56,9 +56,9 @@ bash# 1. 의존성 설치
 
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/d7cbc205-b4e6-40ce-b946-d7e9ca65e275" />
 
-배운 점
+## 배운 점
 
-Docker를 사용하면 개발 환경 차이에 상관없이 동일한 결과를 재현할 수 있음
-FastAPI를 컨테이너화하여 배포/실행 가능
-WSL2, BIOS 가상화, Docker Desktop 설정 과정 이해
-requirements.txt, Dockerfile 관리의 중요성
+- Docker를 사용하면 개발 환경 차이에 상관없이 동일한 결과를 재현할 수 있음
+- FastAPI를 컨테이너화하여 배포/실행 가능
+- WSL2, BIOS 가상화, Docker Desktop 설정 과정 이해
+- requirements.txt, Dockerfile 관리의 중요성
