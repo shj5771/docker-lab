@@ -21,7 +21,7 @@ PowerShell(관리자 권한)에서 아래 실행:
 ```powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-
+```
 이후 재부팅 후:
 3) WSL2 + Ubuntu 설치
 bashwsl --install
