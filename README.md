@@ -34,8 +34,8 @@ Docker Desktop 다운로드 후 설치
 첫 실행 시 WSL2 기반 엔진 활성화 확인
 
 
-🚀 실행 방법
-### 1) 로컬 실행 (Docker 없이)
+### 🚀 실행 방법
+1) 로컬 실행 (Docker 없이)
 bash# 1. 의존성 설치
 ```pip install -r requirements.txt```
 
