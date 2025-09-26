@@ -34,7 +34,7 @@ Docker Desktop 다운로드 후 설치
 첫 실행 시 WSL2 기반 엔진 활성화 확인
 
 
-### 🚀 실행 방법
+### 실행 방법
 1) 로컬 실행 (Docker 없이)
 bash# 1. 의존성 설치
 ```pip install -r requirements.txt```
@@ -56,7 +56,7 @@ bash# 1. 의존성 설치
 
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/d7cbc205-b4e6-40ce-b946-d7e9ca65e275" />
 
-📖 배운 점
+배운 점
 
 Docker를 사용하면 개발 환경 차이에 상관없이 동일한 결과를 재현할 수 있음
 FastAPI를 컨테이너화하여 배포/실행 가능
