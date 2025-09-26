@@ -44,7 +44,7 @@ bash# 1. 의존성 설치
 
 👉 실행 후 브라우저에서 확인: http://localhost:8000
 
-### 2) Docker 빌드 & 실행
+### 1) Docker 빌드 & 실행
 (1) Docker 이미지 빌드
 ```bashdocker build -t my-fastapi-app .```
 (2) 컨테이너 실행 (8010 포트 매핑)
@@ -52,7 +52,7 @@ bash# 1. 의존성 설치
 
 👉 실행 후 브라우저에서 확인: http://localhost:8010
 
-🧩 Docker 명령어 정리
+### 2) Docker 명령어 정리
 
 <img width="593" alt="image" src="https://github.com/user-attachments/assets/d7cbc205-b4e6-40ce-b946-d7e9ca65e275" />
 
