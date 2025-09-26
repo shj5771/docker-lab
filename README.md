@@ -53,7 +53,8 @@ bash# 1. 의존성 설치
 👉 실행 후 브라우저에서 확인: http://localhost:8010
 
 🧩 Docker 명령어 정리
-명령어설명docker build -t my-fastapi-app .현재 디렉토리 기반 이미지 빌드docker run -d -p 8010:8000 my-fastapi-app컨테이너 실행 (포트 매핑)docker ps실행 중인 컨테이너 확인docker stop <container_id>컨테이너 중지docker logs <container_id>로그 확인docker exec -it <container_id> bash실행 중인 컨테이너 내부 진입
+<img width="560" height="268" alt="image" src="https://github.com/user-attachments/assets/8d757fa2-db21-4e7f-88c6-3e0a135ea7e1" />
+
 📖 배운 점
 
 Docker를 사용하면 개발 환경 차이에 상관없이 동일한 결과를 재현할 수 있음
