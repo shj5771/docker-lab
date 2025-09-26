@@ -39,7 +39,7 @@ Docker Desktop 다운로드 후 설치
 bash# 1. 의존성 설치
 ```pip install -r requirements.txt```
 
-# 2. FastAPI 실행
+2) FastAPI 실행
 ```uvicorn app:app --reload --host 0.0.0.0 --port 8000```
 
 👉 실행 후 브라우저에서 확인: http://localhost:8000
